@@ -9672,3 +9672,12 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+@media (max-width: 991px) {
+  .hidden-mouse {
+    display: none;
+  }
+}
+
+
+
