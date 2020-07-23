@@ -10,6 +10,23 @@ $darken: #232931;
 $primary: #3e64ff;
 $secondary: #a0f669;
 
+@media (max-width: 850px), (max-height: 991px) {
+  .hidden-mouse {
+    display: none;
+  }
+}
+
+@media (max-width: 850px), (max-height: 991px) {
+  .hidden-mouse {
+    display: none;
+  }
+}
+
+@media (min-width: 992px), (max-height: 565px) {
+  .hidden-mouse {
+    display: none;
+  }
+}
 
 
 @mixin border-radius($radius) {
@@ -438,11 +455,12 @@ h1, h2, h3, h4, h5,
 
 //MOUSE WHEEL
 .mouse{
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 120px;
   z-index: 2;
+  height: auto;
 }
 .mouse-icon{
    width: 70px;
@@ -453,7 +471,7 @@ h1, h2, h3, h4, h5,
    cursor: pointer;
    position: relative;
    text-align: center;
-   margin: 0 auto;
+   margin: 50px auto;
    display: block;
    // z-index: 0;
    &:after{
